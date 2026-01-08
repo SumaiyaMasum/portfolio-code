@@ -48,10 +48,14 @@
     color:  rgba(117, 117, 117, 1);
 }
 
+.text-center{
+    text-align: center;
+}
+
 header{
     background-color: #FFF8f3;
     background: url("../images/developer.png") , url("../images/header_bg.png"),#FFF8f3;
-    background-position: top left , bottom right;
+    background-position: 23px 38px , bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 
@@ -119,7 +123,9 @@ nav .menu a{
     vertical-align: middle;
 }
 
-#about{
+#about ,#skills , #resume{
+
+    
     padding-top: 130px;
 
 }
@@ -151,11 +157,7 @@ nav .menu a{
 
     font-size: 20px;
 }
-#skills{
 
-    padding-top: 130px;
-
-}
 
 #skills .skills-container{
     width: 71%;
@@ -182,6 +184,7 @@ nav .menu a{
 .skill-card h3{
     font-size: 20px;
     color: #181818;
+    margin-bottom: 20px;
 }
 
 .skill-card p{
@@ -190,4 +193,96 @@ nav .menu a{
     line-height: 28px;
    
 
+}
+
+.resume-container{
+width: 71%;
+max-width: 1140px;
+margin: 113px  auto 0;
+display:flex;
+gap: 24px;
+
+}
+
+.resume-container hr{
+    margin: 30px 0;
+}
+
+.resume-container .section-title{
+
+    color: var(--Dark 02, rgba(71, 71, 71, 1));
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+.resume-card{
+    max-width: 551px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title{
+    font-size: 25px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+   color: #474747;
+}
+
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600; 
+    margin-bottom: 20px;
+   color: #757575;
+}
+
+.resume-card .card-text{
+    font-size: 16px;
+    line-height: 28px; 
+   
+   color: #757575;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: rgba(255, 248, 243, 1);
+    padding: 130px 0;
+}
+
+.fotter-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap:116px;
+}
+
+.social{
+    max-width: 562px;
+}
+
+.fotter-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.fotter-container p{
+    color:var(--Dark 02, rgba(71, 71, 71, 1)); 
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+
+.fotter-container .icons a{
+    margin-right: 30px;
+}
+
+.fotter-container form input[type="text"],
+.fotter-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
